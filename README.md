@@ -1,19 +1,19 @@
 # DeepStack_ExDark
 
-![](images/1.jpg)
-
 This repository provides a custom DeepStack model that has been trained and can be used for creating a new `object detection API` for detecting **12 common objects** (including people) in the **dark/night** images and videos. The Model was trained on the [ExDark dataset](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset) dataset.
 
+
+- **Create API and Detect Logos**
+- **Discover more Custom Models**
+- **Train your own Model**
+
+![](images/1.jpg)
 
 ![](images/2.jpg)
 
 ![](images/3.jpg)
 
 ![](images/4.jpg)
-
-- **Create API and Detect Logos**
-- **Discover more Custom Models**
-- **Train your own Model**
 
 
 
