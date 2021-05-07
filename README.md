@@ -3,7 +3,7 @@
 This repository provides a custom DeepStack model that has been trained and can be used for creating a new `object detection API` for detecting **12 common objects** (including people) in the **dark/night** images and videos. The Model was trained on the [ExDark dataset](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset) dataset.
 
 
-- **Create API and Detect Logos**
+- **Create API and Detect Objects**
 - **Discover more Custom Models**
 - **Train your own Model**
 
@@ -17,7 +17,7 @@ This repository provides a custom DeepStack model that has been trained and can 
 
 
 
-# Create API and Detect Logos
+# Create API and Detect Objects
 
 The Trained Model can detect the following objects in dark/night images and videos. 
 
@@ -58,9 +58,9 @@ To start detecting, follow the steps below
 
     ![](images/deepstack-log.png)
 
-    That means DeepStack is running your custom `dark.pt` model and now ready to start detecting logos in images via the API enpoint `http://localhost:80/v1/vision/custom/dark` or `http://your_machine_ip:80/v1/vision/custom/dark`
+    That means DeepStack is running your custom `dark.pt` model and now ready to start detecting objects in night/dark images via the API endpoint `http://localhost:80/v1/vision/custom/dark` or `http://your_machine_ip:80/v1/vision/custom/dark`
 
-- **Detect Logo in image:** You can detect logos in an image by sending a `POST` request to the url mentioned above with the paramater `image` set to an `image` using any proggramming language or with a tool like POSTMAN. For the purpose of this repository, we have provided a sample Python code below.
+- **Detect Objects in night image:** You can detect objects in an image by sending a `POST` request to the url mentioned above with the paramater `image` set to an `image` using any proggramming language or with a tool like POSTMAN. For the purpose of this repository, we have provided a sample Python code below.
 
     - A sample image can be found in `images/image.jpg` of this repository
 
@@ -117,7 +117,7 @@ To start detecting, follow the steps below
         ```
 
         ![](images/image_new.jpg)
-    - You can try running detection for other images that contains the objects listed in the OpenLogo datasets.
+    - You can try running detection for other night/dark images.
 
 # Discover more Custom Models
 
