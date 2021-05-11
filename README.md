@@ -52,7 +52,7 @@ To start detecting, follow the steps below
 
     For a Linux machine
     ```bash
-    sudo docker run -v /home/MyUser/Documents/DeepStack-Models -p 80:5000 deepquestai/deepstack
+    sudo docker run -v /home/MyUser/Documents/DeepStack-Models:/modelstore/detection -p 80:5000 deepquestai/deepstack
     ```
     Once DeepStack runs, you will see a log like the one below in your `Terminal/Console`
 
